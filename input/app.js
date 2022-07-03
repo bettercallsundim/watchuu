@@ -4,3 +4,9 @@ var swiper = new Swiper(".mySwiper", {
    },
    slidesPerView : 3,
  });
+
+ const $=document.querySelector.bind(document);
+ const $$=document.querySelectorAll.bind(document);
+ $('.menu').onclick=()=>{
+  $('.mblnav').classList.toggle('hidden');
+ }
