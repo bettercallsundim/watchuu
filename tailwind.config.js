@@ -1,9 +1,9 @@
 module.exports = {
-  content: ["./input/**/*.{html,js}",],
+  content: ["./**/*.{html,js}",],
   theme: {
     extend: {
       fontFamily: {
-        "ppoppins":["Poppins"],
+        "poppins":["Poppins"],
       }
     },
   },
