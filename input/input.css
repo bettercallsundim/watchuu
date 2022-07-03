@@ -157,9 +157,11 @@ body{
    z-index: 30;
    color: white;
    font-size: 2rem;
+   outline: none;
+   border: none;
 }
 
-.menu:hover{
+.menu:hover,.menu:active{
    color: #bababa;
 }
 
@@ -174,7 +176,7 @@ body{
       height: auto;
    }
    .swiper-slide {
-      aspect-ratio: 3/6.5;
+      aspect-ratio: 3/6;
    }
    .news{
       flex-basis: 90%;
